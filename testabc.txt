@@ -1,1 +1,13 @@
 this is a sample file.
+
+
+For Anshul:
+cd C:\cdacpune\project\obs1\obs
+
+git add anshul/*.*
+
+git commit -m "MESSAGE HERE"
+
+git pull
+
+git push
