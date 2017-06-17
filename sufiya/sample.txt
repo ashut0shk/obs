@@ -1,1 +1,11 @@
 sample file added.
+
+cd sufiya
+
+git add *.*
+
+git commit -m "MESSAGE ABOUT CHANGES MADE"
+
+git pull
+
+git push
