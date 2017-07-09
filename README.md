@@ -16,3 +16,11 @@ The plan for development will be shared separately. However, plan to have separa
     * Production
 
 For concerns and queries you may have, contact us @ <bold>infekted@hotmail.de</bold>
+
+Date: 9 July -- Added database schema
+	
+	Ashutosh
+		User Transactions
+		User Roles
+		User Wishlists
+
