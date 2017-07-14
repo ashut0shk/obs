@@ -1,0 +1,90 @@
+<head><link rel="stylesheet" type="text/css" href="style.css"</head>
+<div class="Login_container">
+    <div class="login_left">
+        <form action="http://forum.codinginstitute.com/login" id="login" role="form" method="post" accept-charset="utf-8">
+
+            <div class="hding">Login</div>
+
+            <div class="logbox">
+                <label>Email<span class="red">*</span></label>
+                <div class="input">
+                    <input type="text" name="user_email" value="" class='m-wrap span12' tabindex='1' id='user_email' />
+                </div>
+            </div>
+            <div class="logbox">
+                <label>Password<span class="red">*</span></label>
+                <div class="input">
+                    <input type="password" name="user_password" value="" class='m-wrap span12' tabindex='2' maxlength='50' id='user_password' />
+                </div>
+            </div>
+            <div class="logbox remember">
+                <input type="checkbox" name="remember_me" value="accept" id="remember_me" class="m-wrap span12" tabindex="4" /> Remember Me
+            </div>
+            <div class="logbox login">
+                <a href="http://forum.codinginstitute.com/forgot" class="frgt left" tabindex='5'>Forgot Password?</a>
+                <input type='hidden' id='hdFormType' name='hdFormType' value=''>
+                <button name="user_login" type="button" class='btn blue' tabindex='6' id='user_login'>Login</button>
+            </div>
+        </form>
+    </div>
+    <div class="login_left">
+        <form action="http://forum.codinginstitute.com/signup" id="user_frm" name="user_frm" role="form" method="post" accept-charset="utf-8">
+            <input type="hidden" name="tcic" value="1ce823864955bb180ad95f6331dc9542" style="display:none;" />
+            <div class="hding">Register</div>
+            <div class="logbox">
+                <label>First Name<span class="red">*</span></label>
+                <div class="input">
+                    <input type="text" name="first_name" value="" class='m-wrap span12' tabindex='11' maxlength='50' id='first_name' />
+                </div>
+            </div>
+            <div class="logbox">
+                <label>Last Name<span class="red">*</span></label>
+                <div class="input">
+                    <input type="text" name="last_name" value="" class='m-wrap span12' tabindex='12' maxlength='50' id='last_name' />
+                </div>
+            </div>
+            <div class="logbox">
+                <label>Phone Number<span class="red">*</span> <span class="eg">Eg.- xxxxxxxxxx</span></label>
+                <div class="input relative">
+                    <div id='country_list_div'></div>
+                    <input type="text" name="u_phone" value="" class='m-wrap span12' tabindex='14' id='u_phone' maxlength='10' />
+                    <label id="u_phone-error" class="input_error phone_code_val" for="u_phone" style="display: none;">Invalid phone format.</label>
+                </div>
+            </div>
+            <div class="logbox">
+                <label>Email<span class="red">*</span></label>
+                <div class="input">
+                    <input type="text" name="email" value="" class='m-wrap span12' tabindex='15' id='email' maxlength='145' />
+                </div>
+            </div>
+            <div class="logbox">
+                <label>Password<span class="red">*</span></label>
+                <div class="input">
+                    <input type="text" name="designation" value="" class='m-wrap span12' tabindex='16' id='designation' maxlength='90' />
+                </div>
+                
+            <div class="logbox">
+                <label>Re-enter Password<span class="red">*</span></label>
+                <div class="input">
+                    <input type="text" name="designation" value="" class='m-wrap span12' tabindex='16' id='designation' maxlength='90' />
+                </div>
+            
+            </div>
+            <!-- <div class="logbox relative">
+  <label>Enter the characters given in the image</label>
+  <div class="cp"> <div class="control-label left" id='captchaImage'>
+         <div id='refreshCaptchImage'> </div>
+          <img id='refreshCaptchImage'src="http://forum.codinginstitute.com/secure_captcha.jpg/2" alt="" width=" 145" height="30"/>
+      </div><a href="javascript:void(0);" id='refreshCaptcha' name='refreshCaptcha' class="refresh"></a></div>
+   <div class="cpinput"><input type="text" name="CaptchaCod" value=""   class='m-wrap span12' tabindex='17' id='CaptchaCod'  />
+   </div>
+
+ </div>  -->
+            <div class="input center"><a href='http://forum.codinginstitute.com/terms' target='_blank' class="frgt">Accepting term &amp; conditions by clicking register button</a></div>
+            <div class="logbox">
+                <input type='hidden' id='hdFormTypeRe' name='hdFormTypeRe' value=''>
+                <button name="create_user" type="button" class='btn right' tabindex='18' id='submit_registration'>Register</button>
+            </div>
+        </form>
+    </div>
+</div>
