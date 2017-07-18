@@ -1,0 +1,14 @@
+july 18: 0752hrs
+	-added a new jsp page products
+	-minimalistic grid system to demonstrate bootstrap floating
+	-image is be a hyperlink
+	
+	STILL TO ADD
+	-timer
+	-buy button
+	-logic for dynamic content grabbing
+	-pagination
+
+	NOTE:
+		Ashutosh, I still have some issues regarding Spring framework so I've made the changes to my previous code which is easier for me to develop and test, and i'm sure it can be easily ported later to your code. I also have some doubts and queries regarding this so inform me when you are available.
+	
